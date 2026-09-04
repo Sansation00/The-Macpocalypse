@@ -11,6 +11,8 @@ You'll need brew, and to install this
  - then ```mkdir -p ~/bin && ln -s ~/Homebrew/bin/brew ~/bin/brew```
  - then ```echo '[ -d "$HOME/bin" ] && export PATH="$PATH:$HOME/bin"' >> ~/.zshrc```
  - then ```source ~/.zshrc```
-Now after all that run ```brew``` and that should do somthing other than command not found: brew
+Now after all that run ```brew``` and that should do somthing other than ```command not found: brew```
+> **It didn't work**: well now just download the homebrew folder above
 
-
+## The Second Step
+Wonderful you have brew now 
