@@ -18,4 +18,8 @@ Now after all that run ```brew``` and that should do somthing other than ```comm
 Wonderful you have brew now, It is now time to install wine
 > **Wine is not the only thing you can install with brew**
 
-- First run brew install --cask wine-stable
+- First run ```brew install --cask The-Wineskin-Project/wineskin/wineskin``` press y when asked then when password press CTRL+X or Z or C Which ever one
+- now in finder, find the file in your directory (>R2.D2 on the left) open Homebrew>Caskroom>Wineskin>*version number*>Wineskin Winery
+- open then and DONT DELETE THE FILE, choose the other option
+- put this commnad in the prompt and dont enter it ```xattr -rd com.apple.quarantine``` add a space and drag the Wineskin Application from finder in to the terminal
+- after this now open wineskin and click the + create new thingy after that create the enviroment or something, name it, click ok, and wait for it to finish
