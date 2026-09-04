@@ -7,4 +7,10 @@ You'll need brew, and to install this
 - open terminal
  - first run ```cd```
  - then ```mkdir ~/Homebrew```
- - then run this command ```shell curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C ~/Homebrew```
+ - then run this command ```curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C ~/Homebrew```
+ - then ```mkdir -p ~/bin && ln -s ~/Homebrew/bin/brew ~/bin/brew```
+ - then ```echo '[ -d "$HOME/bin" ] && export PATH="$PATH:$HOME/bin"' >> ~/.zshrc```
+ - then ```source ~/.zshrc```
+Now after all that run ```brew``` and that should do somthing other than command not found: brew
+
+
